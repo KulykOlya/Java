@@ -10,7 +10,7 @@ public class QuadraticFormula {
 	double x2;	
 		
 	System.out.println("Please input coefficients a, b, c. Use gap as delimiter." + "\n"); 
-	Scanner inputdata = new Scanner(System.in);												//read input parameters
+	Scanner inputdata = new Scanner(System.in);								//read input parameters
 	double a = inputdata.nextDouble();
 	double b = inputdata.nextDouble();
 	double c = inputdata.nextDouble();
@@ -22,9 +22,9 @@ public class QuadraticFormula {
 		return;
 	}
 		
-	double D = Math.sqrt(Math.pow(b, 2) - 4*a*c);											//discriminant counting
+	double D = Math.sqrt(Math.pow(b, 2) - 4*a*c);								//discriminant counting
 	
-	if ((int)D == 0.0){																		//if D<0
+	if ((int)D == 0.0){											//if D<0
 		System.out.println("The equation hasn't rational solutions\n");
 	} else if (D == 0.0){ 
 			x1 = -b/(2*a);
