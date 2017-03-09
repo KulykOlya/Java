@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
 
-	public void main(String[] args) {
+	public static void main(String[] args) {
 		
 		System.out.println("Sorted array: \n" + Arrays.toString(bubbleSort(readInputData())));
 	}
