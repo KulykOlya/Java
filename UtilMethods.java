@@ -1,8 +1,5 @@
 package bubbleSortAndBinarySearch;
 
-import java.util.Arrays;
-
-
 public class UtilMethods {
 	
 	
@@ -47,6 +44,4 @@ public class UtilMethods {
 	     
 	     return -1;
 	} 
-	
-
 }
