@@ -25,7 +25,9 @@ public class BinarySearch {
 		
 		inputData.close();
 		
-		
-		System.out.println(UtilMethods.binarySearch(SortedArray, p, 0, (SortedArray.length-1)));
+		int position = UtilMethods.binarySearch(SortedArray, p, 0, (SortedArray.length-1));
+		if (position != -1){
+			System.out.print("Element " + p + " in " + Arrays.toString(SortedArray) + " has posotoin # " + position);
+		}	
 	}
 }
