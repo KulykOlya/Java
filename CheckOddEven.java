@@ -12,7 +12,10 @@ public class CheckOddEven {
 		int k = inputData.nextInt();
 		inputData.close();
 		
-		if (k % 2 != 0){
+		if (k == 0){
+			System.out.println("That's zero, somebody think it's Even Number, somebody exclude it");
+		}
+		else if (k % 2 != 0){
 			System.out.println("Even Numbe");
 		}else{
 			System.out.println("Odd Number");
