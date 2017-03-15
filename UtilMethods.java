@@ -44,7 +44,7 @@ public class UtilMethods {
 	    	 binarySearch(a, k, mid, high);
 	     }
 	     else
-	    	 System.out.println("Element " + k + " in " + Arrays.toString(a) + " has posotoin # ");
+	    	 System.out.print("Element " + k + " in " + Arrays.toString(a) + " has posotoin # ");
 	     return mid;
 	} 
 	
