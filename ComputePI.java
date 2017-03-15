@@ -4,7 +4,7 @@ public class ComputePI {
 
 	public static void main(String[] args) {
 		
-		double p = 1.0;
+	    double p = 1.0;
 	    int k = 1;
 	    for (double i=3.0; i<10000.0; i+=2)
 	    {
