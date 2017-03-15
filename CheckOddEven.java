@@ -16,7 +16,7 @@ public class CheckOddEven {
 			System.out.println("That's zero, somebody think it's Even Number, somebody exclude it");
 		}
 		else if (k % 2 != 0){
-			System.out.println("Even Numbe");
+			System.out.println("Even Number");
 		}else{
 			System.out.println("Odd Number");
 		}
