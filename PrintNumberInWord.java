@@ -24,7 +24,7 @@ public class PrintNumberInWord {
                  	break;
     		case 4:  numberString = "Four";
                  	break;
-    		case 5:  numberString = "Fife";
+    		case 5:  numberString = "Five";
                  	break;
     		case 6:  numberString = "Six";
                  	break;
