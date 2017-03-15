@@ -14,7 +14,8 @@ public class ComputePI {
 	            p -= (1/i);
 	        k += 1;
 	    }
-	    System.out.println("Calculated Pi = " + 4*p);
+	    p *= 4;
+	    System.out.println("Calculated Pi = " + p);
 	    System.out.println("Math Pi = " + Math.PI);
 	}
 }
