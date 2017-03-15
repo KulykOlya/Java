@@ -28,24 +28,24 @@ public class UtilMethods {
 	
 	public static int binarySearch(int[] a, int k, int low, int high){
 		
-		if (high < low)
-			System.out.println("Element not found");
-		
-	     int mid = (low + high)/2;
-	     
-	     if (mid < 1 || k < a[low] || k > a[high]){
+	     if (high < low || k < a[low] || k > a[high]){
 	    	 System.out.println("Element not found");
 	    	 return -1;
 	     }
+	     
+	     int mid = (low + high)/2;
+	     
+	     if (a[mid] == k){
+	    	 return mid;
+	     }
 	     else if(a[mid] > k){
-	    	 binarySearch(a, k, low, mid);
+	    	 return binarySearch(a, k, low, mid -1);
 	    	 }
 	     else if (a[mid] < k){
-	    	 binarySearch(a, k, mid, high);
+	    	 return binarySearch(a, k, mid + 1, high);
 	     }
-	     else
-	    	 System.out.print("Element " + k + " in " + Arrays.toString(a) + " has posotoin # ");
-	     return mid;
+	     
+	     return -1;
 	} 
 	
 
