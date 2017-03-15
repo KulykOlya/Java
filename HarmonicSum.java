@@ -6,7 +6,7 @@ public class HarmonicSum {
 		
 		double harmonic = 0.0;
 		
-		for(int i = 1; i <= 5000; i++){
+		for(int i = 1; i <= 50000; i++){
 			harmonic += (double) 1/i;
 		}
 		
