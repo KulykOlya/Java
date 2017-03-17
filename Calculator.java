@@ -25,16 +25,15 @@ public class Calculator {
 	
 	switch (op) {
 		case 1:  result = UtilCalculator.add(a, b);
-			 	break;
+		break;
 		case 2:  result = UtilCalculator.sub(a, b);
              	break;
 		case 3:  result = UtilCalculator.mult(a, b);
-				break;
+		break;
 		case 4:  result = UtilCalculator.div(a, b);
              	break;
 		default: result =UtilCalculator.check(op);
-             break;
-	}
+		break;}
 	
 	System.out.println("Result: " + result);
 }}
