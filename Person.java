@@ -6,37 +6,30 @@ public class Person {
 		private String surname;
 		private String email;
 		
-		public Person(String n, String s, String e){
-			name = n;
-			surname = s;
-			email = e;
-		}
+		public Person(String name, String surname, String email){
+			this.name = name;
+			this.surname = surname;
+			this.email = email;}
 		
 //gets for data		
 		public String getName(){
-		       	return this.name; 
-		}
+		       	return name;}
 		
 		public String getSurname(){
-	       	return this.surname; 
-		}
+	       	return surname;}
 		
 		public String getEmail(){
-	       	return this.email; 
-		}
+	       	return email;}
 		
 //sets for data		
 		public void setName(String n){
-		    this.name = n;
-		}
+		    name = n;}
 		
 		public void setSurname(String s){
-		    this.surname = s;
-		}
+		    surname = s;}
 		
 		public void setEmail(String e){
-		    this.email = e;
-		}
+		    email = e;}
 		
 
 //print all data		
@@ -44,8 +37,4 @@ public class Person {
 			String s=" ";
 			String s1=s.concat(getName()).concat(s).concat(getSurname()).concat(s).concat(getEmail());
 			System.out.println(s1);
-		}
-		
-	
-
-}
+}}
