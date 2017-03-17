@@ -18,7 +18,6 @@ public class UtilCalculator {
 	
 	public static double div(double a, double b){
 		if (b == 0){
-			System.out.println("Divide by 0 error. Please, ignore the Result");
-			}
+			System.out.println("Divide by 0 error. Please, ignore the Result");}
 		return a/b;}
 }
