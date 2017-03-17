@@ -3,23 +3,19 @@ package calculator;
 public class UtilCalculator {
 
 	public static double add(double a, double b){
-		 double sum = a + b;
-		 return sum;
+		 return a + b;
 	}
 	
 	public static double sub(double a, double b){
-		double sub = a - b;
-		return sub;
+		return a - b;
 	}
 	
 	public static double mult(double a, double b){
-		double mult = a * b;
-		return mult;
+		return a * b;
 	}
 	
 	public static double div(double a, double b){
-		double div = a/b;
-		return div;
+		return a/b;
 	}
 		
 }
