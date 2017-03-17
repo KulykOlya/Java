@@ -22,14 +22,14 @@ public class Person {
 	       	return email;}
 		
 //sets for data		
-		public void setName(String n){
-		    name = n;}
+		public void setName(String name){
+		    this.name = name;}
 		
-		public void setSurname(String s){
-		    surname = s;}
+		public void setSurname(String surname){
+			this.surname = surname;}
 		
-		public void setEmail(String e){
-		    email = e;}
+		public void setEmail(String email){
+			this.email = email;}
 		
 
 //print all data		
