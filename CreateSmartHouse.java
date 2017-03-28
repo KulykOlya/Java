@@ -6,20 +6,19 @@ public class CreateSmartHouse {
 	
 	public static void main(String[] args) {
 		
-		SmartHouse house2 = new HotWater(10);
+		SmartHouse house2 = new HotRadiator(10,10);
 		System.out.println(house2.getWaterTemprecher());
-		//System.out.println(house2.getRadiatorWaterLevel());
+		System.out.println(house2.getRadiatorWaterLevel());
 		
-		/*if (new String("16:49").equals(TimeGeneration.currentTime())){
+		if (new String("16:47").equals(TimeGeneration.currentTime())){
 			house2.heatingRadiator();
-			//System.out.println(my_house.heatingWater());
 			} else
-				{System.out.println("That's not time for heating radiator");}*/
+				{System.out.println("That's not time for heating radiator");}
 		
-		if (new String("16:52").equals(TimeGeneration.currentTime())){
+		if (new String("16:46").equals(TimeGeneration.currentTime())){
 			house2.heatingWater();} else
 				{System.out.println("That's not time for heating water");}
 		
 		System.out.println(house2.getWaterTemprecher());
-		//System.out.println(house2.getRadiatorWaterLevel());
+		System.out.println(house2.getRadiatorWaterLevel());
 }}
